@@ -12,10 +12,10 @@ To participate in the workshop, OBS and the following plugins should be installe
 [Recursion Effect](https://obsproject.com/forum/resources/recursion-effect.1008/)  
 [DistroAV](https://obsproject.com/forum/resources/distroav-network-audio-video-in-obs-studio-using-ndi%C2%AE-technology.528/)  
 [Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)  
-
+[Free Melda Audio Plugins](https://www.meldaproduction.com/effects/free)
 *Note:*
 
-On MacOS, you will probably not be able to install the plugins directly, as they are not authorized by Apple. To get around this, you can do the following:
+On MacOS, you will probably not be able to install the OBS plugins directly, as they are not authorized by Apple. To get around this, you can do the following:
 
 1. Open the terminal  
 2. Enter the following command:
