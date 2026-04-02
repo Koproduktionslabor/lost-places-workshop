@@ -7,7 +7,6 @@ To participate in the workshop, OBS and the following plugins should be installe
 
 [OBS](https://obsproject.com/de/download)  
 [Move Transitions](https://obsproject.com/forum/resources/move.913/)  
-[Shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/)  
 [Retro effects](https://obsproject.com/forum/resources/retro-effects.1972/)  
 [Recursion Effect](https://obsproject.com/forum/resources/recursion-effect.1008/)  
 [DistroAV](https://obsproject.com/forum/resources/distroav-network-audio-video-in-obs-studio-using-ndi%C2%AE-technology.528/)  
