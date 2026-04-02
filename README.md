@@ -11,7 +11,8 @@ To participate in the workshop, OBS and the following plugins should be installe
 [Retro effects](https://obsproject.com/forum/resources/retro-effects.1972/)  
 [Recursion Effect](https://obsproject.com/forum/resources/recursion-effect.1008/)  
 [DistroAV](https://obsproject.com/forum/resources/distroav-network-audio-video-in-obs-studio-using-ndi%C2%AE-technology.528/)  
-[Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)  
+[Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)
+[Shadertastic](https://www.shadertastic.com/download)
 [Free Melda Audio Plugins](https://www.meldaproduction.com/effects/free)
 
 *Note:*
