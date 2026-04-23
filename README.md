@@ -137,7 +137,7 @@ Using a compressor as a "Brute Force" normalizer flattens the audio into a consi
 
 ### 5. Deployment Strategy
 
-There are two ways to handle varied audio signals in this installation. The method you choose depends largely on your aesthetic preferences. If you want glitches and hard cuts, it is recommended that you normalize the audio signal. If you prefer smoother transitions, fewer cuts, and/or longer video segments, you can skip this step:
+There are two ways to handle varied audio signals in this installation. The method you choose depends largely on your aesthetic preferences. If you want glitches and hard cuts, it is recommended that you normalize the audio signal. If you prefer smoother transitions, fewer cuts, and/or longer video segments, you can skip the normalization:
 1.  **Passive:** Allow the system to idle until a sufficiently loud video is fed in.
 2.  **Active (Recommended):** Use the **MCompressor** settings above to force all signals into a predictable range, ensuring the Advanced Scene Switcher macros fire consistently regardless of the source material's original quality.
 
