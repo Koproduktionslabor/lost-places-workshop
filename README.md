@@ -38,7 +38,7 @@ On MacOS, you will probably not be able to install the OBS plugins directly, as 
 
 ### 1. Scene and Source Structure
 
-The installation relies on a 1:1 mapping of NDI streams to OBS scenes to maintain organizational clarity.
+The installation relies on a 1:1 mapping of [NDI streams](https://en.wikipedia.org/wiki/Network_Device_Interface) to OBS scenes to maintain organizational clarity.
 
 ### Scenes
 Create four distinct scenes, named sequentially (e.g., `NDI-1` through `NDI-4`). Clear naming is essential for the automation logic in later steps.
