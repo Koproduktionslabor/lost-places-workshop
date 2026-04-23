@@ -1,4 +1,7 @@
 # lost-places-workshop
+
+<img width="2481" height="1400" alt="lostplaces_title" src="https://github.com/user-attachments/assets/e3156331-c29b-48f8-a8ba-a52d86066520" /> <br>
+
 This repository contains the documentation and configuration guidelines for the audiovisual installation **"Lost Places of the Internet"**, part of the **Digital Junkyard** project. This setup uses OBS Studio to transform almost 0-view YouTube streams into a generative, audio-reactive wasteland.
 
 ---
