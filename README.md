@@ -129,7 +129,7 @@ Within each scene, add an **NDI Source**. Here, too, consistent naming is import
 ### 2. Automation with Advanced Scene Switcher
 
 The **Advanced Scene Switcher** (Tools -> Advanced Scene Switcher) acts as the central brain of the installation, handling generative transitions.  
-The full documentation can be found [here](https://github.com/WarmUpTill/SceneSwitcher).
+The full documentation of this plugin can be found [here](https://github.com/WarmUpTill/SceneSwitcher).
 
 #### Initial Configuration
 To access all necessary menus, navigate to the **General** tab -> **UI Settings** and uncheck:
