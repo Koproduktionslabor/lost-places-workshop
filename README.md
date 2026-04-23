@@ -3,7 +3,7 @@ This repository contains the documentation and configuration guidelines for the 
 
 ---
 
-## download links
+## Download Links
 
 To participate in the workshop, OBS and the following plugins should be installed:
 
@@ -33,7 +33,7 @@ On MacOS, you will probably not be able to install the OBS plugins directly, as 
 
 ## Documentation
 
-## 1. Scene and Source Structure
+### 1. Scene and Source Structure
 
 The installation relies on a 1:1 mapping of NDI streams to OBS scenes to maintain organizational clarity.
 
@@ -47,49 +47,49 @@ Within each scene, add an **NDI Source**:
 
 ---
 
-## 2. Automation with Advanced Scene Switcher
+### 2. Automation with Advanced Scene Switcher
 
 The **Advanced Scene Switcher** (Tools -> Advanced Scene Switcher) acts as the central brain of the installation, handling generative transitions.
 
-### Initial Configuration
+#### Initial Configuration
 To access all necessary menus, navigate to the **General** tab -> **UI Settings** and uncheck:
 `Hide tabs which can be represented via macros`.
 
-### Scene Groups
+#### Scene Groups
 To avoid linear loops (1-2-3-4), we use **Scene Groups** as randomizing containers.
 * **Type:** Random.
 * **Content:** Add your four NDI scenes to the group. This allows the system to pick a random "next" scene.
 
-### Macros (If/Then Logic)
+#### Macros (If/Then Logic)
 Macros control the audio-reactive switching. A macro is created for each scene following this logic:
 * **Condition (IF):** Audio level of the current scene is above/below a specific threshold **AND** the current scene is active (this "security check" prevents background triggers).
 * **Action (THEN):** Switch to a random scene within the **Scene Group**.
 
 ---
 
-## 3. Audio-Reactive Filters (Audio Move)
+### 3. Audio-Reactive Filters (Audio Move)
 
 The **Audio Move** filter allows audio data to control visual effects (e.g., Glitch intensity or Displacement).
 
-### Meter Types
+#### Meter Types
 * **Magnitude:** Measures average energy (RMS-like). Best for smooth, fluid movements.
 * **Peak Sample:** Measures the highest digital peak. Best for sudden, glitchy reactions.
 * **Peak True:** More precise than Peak Sample; calculates inter-sample peaks.
 * **Input Peak (Sample/True):** Measures the raw signal *before* other filters (like EQ/Compressor) are applied.
 * **Normal (No Input):** Measures the signal as it arrives at its current position in the filter chain.
 
-### Key Parameters
+#### Key Parameters
 * **Base Value:** The default value when silent. (e.g., 0.10 = 10% effect intensity at all times).
 * **Factor:** The multiplier for audio input. A higher factor (e.g., 70.00) causes extreme reactions to low volumes.
 * **Action:** Can either toggle a filter (**Filter Enable**) or modulate a specific value (**Setting**).
 
 ---
 
-## 4. Signal Normalization (Compression)
+### 4. Signal Normalization (Compression)
 
 Since the scraped YouTube videos vary significantly in volume, an aggressive compression stage is necessary to ensure the automation triggers reliably.
 
-### MCompressor Configuration
+#### MCompressor Configuration
 Using a compressor as a "Brute Force" normalizer flattens the audio into a consistent block of energy.
 
 | Parameter | Recommended Value | Description |
