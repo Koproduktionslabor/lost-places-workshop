@@ -77,7 +77,7 @@ Macros control the audio-reactive switching. A macro is created for each scene f
 
 <img width="1510" height="991" alt="lp_doc_03" src="https://github.com/user-attachments/assets/f63b2dd9-2673-4319-b397-d5edd3e82374" /> <br>
 
-You can play around with different thresholds and duration modifiers here. For example you could say that the audio source has to be above/below the threshold for a certain amount of time.
+You can play around with different thresholds and duration modifiers here. For example you could say that the audio source has to be above/below the threshold for a certain amount of time. You can also try different transition modes (e.g. `cut` or `fade`).  
 
 ---
 
