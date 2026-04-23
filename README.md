@@ -56,7 +56,8 @@ Within each scene, add an **NDI Source**. Here, too, consistent naming is import
 
 ### 2. Automation with Advanced Scene Switcher
 
-The **Advanced Scene Switcher** (Tools -> Advanced Scene Switcher) acts as the central brain of the installation, handling generative transitions.
+The **Advanced Scene Switcher** (Tools -> Advanced Scene Switcher) acts as the central brain of the installation, handling generative transitions.  
+The full documentation can be found [here](https://github.com/WarmUpTill/SceneSwitcher).
 
 #### Initial Configuration
 To access all necessary menus, navigate to the **General** tab -> **UI Settings** and uncheck:
@@ -139,7 +140,7 @@ Beyond the technical automation, the core of the **Digital Junkyard** aesthetic 
 Feel free to add multiple video filters to your NDI sources. Some recommended starting points include:
 * **Color Correction:** Crush the blacks or oversaturate the image to mimic old surveillance footage.
 * **Scaling/Aspect Ratio:** Stretch or distort the videos to break the "clean" 16:9 look.
-* **Third-Party Shaders:** Use plugins like *Shadertastic* or *Retro Effects* for pixelation, scanlines, or digital noise.
+* **Third-Party Shaders:** Use plugins like *Recursion Effect*, *Shadertastic* or *Retro Effects* for pixelation, scanlines, or digital noise.
 * **Chain Order:** Remember that filters are processed from top to bottom. Changing the order (e.g., Glitch before or after Color Correction) can drastically change the output.
 
 #### Sonic Textures
