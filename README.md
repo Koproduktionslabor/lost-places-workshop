@@ -61,7 +61,7 @@ Within each scene, add an **NDI Source**. Here, too, consistent naming is import
 
 <img width="1273" height="985" alt="lp_doc_01" src="https://github.com/user-attachments/assets/791b1db2-447f-4472-9598-6c338f42143d" /> <br>
 
-*Note:* If you're working with video files, you can also add a local source here. Make sure the source is set to “Loop” and that “Restart playback when source becomes active” is unchecked.
+*Note:* If you're working with video files, you can also add a local source (**Media**) here. Make sure the source is set to “Loop” and that “Restart playback when source becomes active” is unchecked.
 
 ---
 
