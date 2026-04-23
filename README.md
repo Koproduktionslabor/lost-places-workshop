@@ -28,8 +28,8 @@ The following programs and plugins are required for this setup:
 [Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)   
 [Free Melda Audio Plugins](https://www.meldaproduction.com/effects/free)   
 [Max/MSP](https://cycling74.com/downloads)  
-[jit.ndi external](https://github.com/pixsper/jit.ndi)
-[yt-dlp](https://github.com/yt-dlp/yt-dlp)
+[jit.ndi external](https://github.com/pixsper/jit.ndi)  
+[yt-dlp](https://github.com/yt-dlp/yt-dlp)  
 
 *Note:*
 
