@@ -53,7 +53,7 @@ On MacOS, you will probably not be able to install the OBS plugins directly, as 
 
 This setup uses two primary Max patches: **"main"** and **"soundscape"**.
 
-* **Main Patch:** Downloads YouTube videos with random generic filenames (e.g., `MOV_123`, `IMG_999`, `VID_001`). es utilizes the [yt-dlp](https://github.com/yt-dlp/yt-dlp) library and uses **Node.js** as a bridge between Max/MSP and Python.
+* **Main Patch:** Downloads YouTube videos with random generic filenames (e.g., `MOV_123`, `IMG_999`, `VID_001`). It utilizes the [yt-dlp](https://github.com/yt-dlp/yt-dlp) library and uses **Node.js** as a bridge between Max/MSP and Python.
 * **Soundscape Patch:** A bonus patch that generates a generative, droning soundscape from the live audio feed of the videos.
 
 ### Prerequisites
