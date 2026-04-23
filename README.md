@@ -10,7 +10,7 @@ This repository contains the documentation and configuration guidelines for the 
 
 This installation operates as a live, multi-stage processing pipeline that transforms "unseen" digital waste into a generative audiovisual environment:
 
-1.  **Acquisition (MaxMSP):** A custom script scans platforms like YouTube for videos—content with zero algorithmic relevance.
+1.  **Acquisition (MaxMSP):** A custom script scans platforms like YouTube for video content with zero algorithmic relevance.
 2.  **Transmission (NDI):** These raw video streams are transmitted via **NDI (Network Device Interface)** for low-latency routing between workstations.
 3.  **Processing & Automation (OBS):** Using **Advanced Scene Switcher**, the system algorithmically cuts between sources based on real-time audio analysis. **Audio Move** and various filters (Glitch, Compression) transform the raw data into a reactive remix.
 
