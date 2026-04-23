@@ -145,7 +145,9 @@ There are two ways to handle varied audio signals in the workshop:
 
 ### 6. Creative Processing: Visual and Audio Filters
 
-Beyond the technical automation, the core of the **Digital Junkyard** aesthetic lies in creative experimentation. You are encouraged to stack and combine multiple filters to achieve a unique "data-waste" look and sound.
+Beyond the technical automation, the core of the **Digital Junkyard** aesthetic lies in creative experimentation. You are encouraged to stack and combine multiple filters to achieve a unique "data-waste" look and sound.  
+
+<img width="283" height="747" alt="lp_doc_06" src="https://github.com/user-attachments/assets/2963073b-c773-4891-9aa4-ddbcd1b34822" /> <br>
 
 #### Visual Experimentation
 Feel free to add multiple video filters to your NDI sources. Some recommended starting points include:
