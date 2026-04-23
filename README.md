@@ -1,14 +1,24 @@
 # lost-places-workshop
 
-<img width="2481" height="1400" alt="lostplaces_title" src="https://github.com/user-attachments/assets/e3156331-c29b-48f8-a8ba-a52d86066520" /> <br>
+<img width="1755" height="973" alt="lp_doc_title" src="https://github.com/user-attachments/assets/bb37d8e1-ec03-40c4-be95-69cd6fe8dcd7" /> <br>
 
-This repository contains the documentation and configuration guidelines for the audiovisual installation **"Lost Places of the Internet"**, part of the **Digital Junkyard** project. This setup uses OBS Studio to transform almost 0-view YouTube streams into a generative, audio-reactive wasteland.
+This repository contains the documentation and configuration guidelines for the audiovisual installation **"Lost Places of the Internet"**, which was part of the **Digital Junkyard VR** project during the first KoLab Days of 2026. This setup uses OBS Studio to transform almost 0-view YouTube streams into a generative, audio-reactive wasteland. The description of the workshop in which this concept was developed can be found [here](https://dortmunder-u.de/event/kolab-days-workshop-3-lost-places-of-the-internet/).
+
+---
+
+## Technical Overview: The Data Pipeline
+
+This installation operates as a live, multi-stage processing pipeline that transforms "unseen" digital waste into a generative audiovisual environment:
+
+1.  **Acquisition (MaxMSP):** A custom script scans platforms like YouTube for videos—content with zero algorithmic relevance.
+2.  **Transmission (NDI):** These raw video streams are transmitted via **NDI (Network Device Interface)** for low-latency routing between workstations.
+3.  **Processing & Automation (OBS):** Using **Advanced Scene Switcher**, the system algorithmically cuts between sources based on real-time audio analysis. **Audio Move** and various filters (Glitch, Compression) transform the raw data into a reactive remix.
 
 ---
 
 ## Download Links
 
-To participate in the workshop, OBS and the following plugins should be installed:
+The following programs and plugins are required for this setup:  
 
 [OBS](https://obsproject.com/de/download)  
 [Move Transitions](https://obsproject.com/forum/resources/move.913/)  
@@ -17,6 +27,7 @@ To participate in the workshop, OBS and the following plugins should be installe
 [DistroAV](https://obsproject.com/forum/resources/distroav-network-audio-video-in-obs-studio-using-ndi%C2%AE-technology.528/)  
 [Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)   
 [Free Melda Audio Plugins](https://www.meldaproduction.com/effects/free)   
+[Max MSP](https://cycling74.com/downloads)  
 
 *Note:*
 
@@ -83,7 +94,7 @@ You can play around with different thresholds and duration modifiers here. For e
 
 ### 3. Audio-Reactive Filters (Audio Move)
 
-The **Audio Move** filter allows audio data to control visual effects (e.g., Glitch intensity or Displacement). Filters can be added to any scene using the Filter button.  
+The **Audio Move** filter allows audio data to control visual effects (e.g., Glitch intensity or Displacement). Filters can be added to any source using the Filter button.  
 
 <img width="216" height="375" alt="lp_doc_04" src="https://github.com/user-attachments/assets/1c9f4177-4254-4af2-8372-1de16c060763" /> <br>
 
@@ -148,4 +159,6 @@ The audio doesn't just drive the automation; it is a primary aesthetic element. 
 * **VST Plugins:** Beyond the MCompressor, try adding Delays, Reverbs, or Bitcrushers to turn the original YouTube audio into abstract soundscapes.
 * **EQing:** Use high-pass or low-pass filters to isolate specific frequencies (e.g., making it sound like it's coming through a tiny telephone speaker).
 
-**Tip:** Every added filter can also be targeted by the **Audio Move** plugin (see Section 3), allowing the "destruction" of the image to react dynamically to the intensity of the sound.
+**Tip:** Every added filter can also be targeted by the **Audio Move** plugin (see Section 3), allowing the "destruction" of the image to react dynamically to the intensity of the sound.  
+
+<img width="2481" height="1400" alt="lostplaces_title" src="https://github.com/user-attachments/assets/e3156331-c29b-48f8-a8ba-a52d86066520" />
