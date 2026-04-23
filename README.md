@@ -27,7 +27,9 @@ The following programs and plugins are required for this setup:
 [DistroAV](https://obsproject.com/forum/resources/distroav-network-audio-video-in-obs-studio-using-ndi%C2%AE-technology.528/)  
 [Advanced Scene Switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)   
 [Free Melda Audio Plugins](https://www.meldaproduction.com/effects/free)   
-[Max MSP](https://cycling74.com/downloads)  
+[Max/MSP](https://cycling74.com/downloads)  
+[jit.ndi external](https://github.com/pixsper/jit.ndi)
+[yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 *Note:*
 
@@ -45,7 +47,67 @@ On MacOS, you will probably not be able to install the OBS plugins directly, as 
 
 ---
 
-## Documentation
+## How to Set Up Max/MSP
+
+<img width="1446" height="964" alt="max" src="https://github.com/user-attachments/assets/055419f2-3c78-4973-a330-0135731e92d4" /> <br>
+
+This setup uses two primary Max patches: **"main"** and **"soundscape"**.
+
+* **Main Patch:** Downloads YouTube videos with random generic filenames (e.g., `MOV_123`, `IMG_999`, `VID_001`). es utilizes the [yt-dlp](https://github.com/yt-dlp/yt-dlp) library and uses **Node.js** as a bridge between Max/MSP and Python.
+* **Soundscape Patch:** A bonus patch that generates a generative, droning soundscape from the live audio feed of the videos.
+
+### Prerequisites
+
+To enable audio-video streaming to OBS, you must install the third-party **jit.ndi-objects**:
+> [Download jit.ndi here](https://github.com/pixsper/jit.ndi)
+
+---
+
+### Installation of Dependencies
+
+Follow these steps to install the necessary Python dependencies and Node modules:
+
+1.  **Install Python:** Download the latest version from [python.org](https://www.python.org/).
+2.  **Open Command Prompt (Windows) or Terminal (macOS).**
+3.  **Create and activate a virtual environment:**
+
+    **On Windows:**
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate
+    ```
+
+    **On macOS:**
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+
+4.  **Install Python dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5.  **Install Node modules:**
+    ```bash
+    npm install
+    ```
+
+---
+
+### Performance & Stability Notes
+
+#### CPU Load
+The `jit.ndi-objects` may increase CPU load over time. To mitigate this:
+* Try using **smaller buffer sizes** (128 or lower), which tend to be more stable.
+
+#### Audio Degradation
+If audio quality degrades over time, use the built-in **reset toggle** in the main patch:
+* This toggle briefly mutes the audio every 30 seconds to reset the CPU load and maintain signal integrity.
+
+---
+
+## OBS Documentation
 
 ### 1. Scene and Source Structure
 
