@@ -102,7 +102,7 @@ The `jit.ndi-objects` may increase CPU load over time. To mitigate this:
 * Try using **smaller buffer sizes** (128 or lower), which tend to be more stable.
 
 If audio quality still degrades over time, use the built-in **reset toggle** in the main patch:
-* This toggle briefly mutes the audio every 30 seconds to reset the CPU load and maintain signal integrity.
+* This toggle briefly mutes the audio every 30 seconds to reset the CPU load.
 
 ---
 
