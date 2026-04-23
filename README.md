@@ -14,6 +14,8 @@ This installation operates as a live, multi-stage processing pipeline that trans
 2.  **Transmission (NDI):** These raw video streams are transmitted via **NDI (Network Device Interface)** for low-latency routing between workstations.
 3.  **Processing & Automation (OBS):** Using **Advanced Scene Switcher**, the system algorithmically cuts between sources based on real-time audio analysis. **Audio Move** and various filters (Glitch, Compression) transform the raw data into a reactive remix.
 
+https://github.com/user-attachments/assets/e9e6d730-f6d2-49af-8b40-d93319d7c779
+
 ---
 
 ## Download Links
