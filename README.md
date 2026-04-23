@@ -75,7 +75,7 @@ To access all necessary menus, navigate to the **General** tab -> **UI Settings*
 `Hide tabs which can be represented via macros`.
 
 #### Scene Groups
-To avoid linear loops (1-2-3-4-1...), we use **Scene Groups** as randomizing containers.
+To avoid linear loops (1-2-3-4-1...), we use a **Scene Group** as a randomizing container.
 * **Type:** Random.
 * **Content:** Add your four NDI scenes to the group. This allows the system to pick a random "next" scene. To add a scene, select a scene from the dropdown menu and click the plus sign.  
 
