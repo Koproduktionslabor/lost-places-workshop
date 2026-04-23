@@ -43,13 +43,11 @@ Create four distinct scenes, named sequentially (e.g., `NDI-1` through `NDI-4`).
 ### Sources
 Within each scene, add an **NDI Source**. Here, too, consistent naming is important to maintain clarity (e.g. `NDI-Video-1`):
 * **Source Names:** If you work with the MaxMSP setup from our workshop the NDI sources should be named `max_video_1` through `max_video_4`.
-* **Connectivity:** Ensure you are on the same network as the source machine (Max/MSP) to detect the streams.
+* **Connectivity:** Ensure you are on the same network as the source machine (Max/MSP) to detect the streams.  
 
 <img width="1273" height="985" alt="lp_doc_01" src="https://github.com/user-attachments/assets/791b1db2-447f-4472-9598-6c338f42143d" />  
 
-*Note:*
-
-If you're working with video files, you can also add a local source here. Make sure the source is set to “Loop” and that “Restart playback when source becomes active” is unchecked.
+*Note:* If you're working with video files, you can also add a local source here. Make sure the source is set to “Loop” and that “Restart playback when source becomes active” is unchecked.
 
 ---
 
