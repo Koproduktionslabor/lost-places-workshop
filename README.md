@@ -77,7 +77,7 @@ To access all necessary menus, navigate to the **General** tab -> **UI Settings*
 #### Scene Groups
 To avoid linear loops (1-2-3-4-1...), we use a **Scene Group** as a randomizing container.
 * **Type:** Random.
-* **Content:** Add your four NDI scenes to the group. This allows the system to pick a random "next" scene. To add a scene, select a scene from the dropdown menu and click the plus sign.  
+* **Content:** Add your four NDI scenes to the group. This allows the system to pick a random scene on each trigger. To add a scene, select a scene from the dropdown menu and click the plus sign.  
 
 <img width="1300" height="680" alt="lp_doc_02" src="https://github.com/user-attachments/assets/26fbda8a-7af4-44a5-be03-0d15397c9e43" /> <br>
 
